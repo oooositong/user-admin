@@ -45,7 +45,7 @@ export default {
     ...mapState(['selectedUser']),
   },
   methods: {
-    ...mapMutations([CREATE_USER]);
+    ...mapMutations([CREATE_USER]),
     createUser(){
       console.log('Create User:', this.firstName, this.lastName, this.email, this.phone);
     }
